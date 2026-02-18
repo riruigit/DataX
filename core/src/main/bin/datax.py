@@ -213,9 +213,23 @@ def buildStartCommand(options, args):
 
 def printCopyright():
     print('''
-DataX (%s), From Alibaba !
-Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
 
+▗▖ ▗▖ ▗▄▖ ▗▖  ▗▖       ▗▖▗▄▄▄▖ ▗▄▖     ▗▖   ▗▄▄▄▖
+▐▌ ▐▌▐▌ ▐▌▐▛▚▖▐▌       ▐▌  █  ▐▌ ▐▌    ▐▌   ▐▌
+▐▌ ▐▌▐▛▀▜▌▐▌ ▝▜▌       ▐▌  █  ▐▛▀▜▌    ▐▌   ▐▛▀▀▘
+▐▙█▟▌▐▌ ▐▌▐▌  ▐▌    ▗▄▄▞▘▗▄█▄▖▐▌ ▐▌    ▐▙▄▄▖▐▙▄▄▖
+
+
+
+▗▄▄▖ ▗▄▄▄▖ ▗▄▄▖    ▗▄▄▄  ▗▄▖▗▄▄▄▖▗▄▖
+▐▌ ▐▌  █  ▐▌       ▐▌  █▐▌ ▐▌ █ ▐▌ ▐▌
+▐▛▀▚▖  █  ▐▌▝▜▌    ▐▌  █▐▛▀▜▌ █ ▐▛▀▜▌
+▐▙▄▞▘▗▄█▄▖▝▚▄▞▘    ▐▙▄▄▀▐▌ ▐▌ █ ▐▌ ▐▌
+
+    ''')
+    print('''
+DataX (%s), From 万家乐 !
+Copyright (C) 2010-2017, 万家乐 data. All Rights Reserved.
 ''' % DATAX_VERSION)
     sys.stdout.flush()
 
