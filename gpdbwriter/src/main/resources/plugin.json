@@ -1,0 +1,6 @@
+{
+    "name": "gpdbwriter",
+    "class": "com.alibaba.datax.plugin.writer.gpdbwriter.GreenplumWriter",
+    "description": "使用 COPY 协议高效写入 Greenplum 数据库，支持 Pipeline 多线程并行写入",
+    "developer": "custom"
+}

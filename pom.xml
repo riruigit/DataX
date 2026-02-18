@@ -91,6 +91,7 @@
         <module>oraclewriter</module>
         <module>sqlserverwriter</module>
         <module>postgresqlwriter</module>
+        <module>gpdbwriter</module>
         <module>kingbaseeswriter</module>
         <module>adswriter</module>
         <module>oceanbasev10writer</module>
@@ -277,6 +278,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2-beta-3</version>
                 <configuration>
                     <finalName>datax</finalName>
                     <descriptors>

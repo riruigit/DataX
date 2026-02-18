@@ -1,0 +1,21 @@
+{
+    "name": "gpdbwriter",
+    "parameter": {
+        "username": "",
+        "password": "",
+        "column": [],
+        "preSql": [],
+        "connection": [
+            {
+                "jdbcUrl": "",
+                "table": []
+            }
+        ],
+        "postSql": [],
+        "segment_reject_limit": 0,
+        "num_copy_processor": 4,
+        "num_copy_writer": 1,
+        "copy_queue_size": 1000,
+        "max_csv_line_size": 0
+    }
+}

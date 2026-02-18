@@ -28,7 +28,8 @@ public enum DataBaseType {
     Sybase("sybase", "com.sybase.jdbc4.jdbc.SybDriver"),
     GaussDB("gaussdb", "org.opengauss.Driver"),
     Databend("databend", "com.databend.jdbc.DatabendDriver"),
-    Doris("doris","com.mysql.jdbc.Driver");
+    Doris("doris","com.mysql.jdbc.Driver"),
+    Greenplum("doris","org.postgresql.Driver");
 
     private String typeName;
     private String driverClassName;
@@ -63,6 +64,8 @@ public enum DataBaseType {
             case DB2:
                 break;
             case PostgreSQL:
+                break;
+            case Greenplum:
                 break;
             case ClickHouse:
                 break;
@@ -121,6 +124,8 @@ public enum DataBaseType {
                 break;
             case PostgreSQL:
                 break;
+            case Greenplum:
+                break;
             case ClickHouse:
                 break;
             case RDBMS:
@@ -167,6 +172,7 @@ public enum DataBaseType {
                 break;
             case DB2:
             case PostgreSQL:
+            case Greenplum:
             case KingbaseES:
             case Oscar:
                 break;
@@ -194,6 +200,7 @@ public enum DataBaseType {
                 break;
             case DB2:
             case PostgreSQL:
+            case Greenplum:
             case KingbaseES:
             case Oscar:
                 break;
@@ -220,6 +227,8 @@ public enum DataBaseType {
             case DB2:
                 break;
             case PostgreSQL:
+                break;
+            case Greenplum:
                 break;
             case KingbaseES:
                 break;
